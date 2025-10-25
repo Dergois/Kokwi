@@ -14,20 +14,8 @@ This project drives a 7-segment common-cathode display to count from 0 to 9, inc
 ## How to test
 
 Connect the circuit to an external clock source and observe the 7-segment display. The digits should increment from 0 to 9 at the rate determined by the clock frequency, then restart from 0 once the cycle is complete.
-N	State							Next State						
-10	0	0	0	0	0	0	0	0	1	1	1	1	1	1
-0	0	1	1	1	1	1	1	0	0	0	0	1	1	0
-1	0	0	0	0	1	1	0	1	0	1	1	0	1	1
-2	1	0	1	1	0	1	1	1	0	0	1	1	1	1
-3	1	0	0	1	1	1	1	1	1	0	0	1	1	0
-4	1	1	0	0	1	1	0	1	1	0	1	1	0	1
-5	1	1	0	1	1	0	1	1	1	1	1	1	0	1
-6	1	1	1	1	1	0	1	0	0	0	0	1	1	1
-7	0	0	0	0	1	1	1	1	1	1	1	1	1	1
-8	1	1	1	1	1	1	1	1	1	0	0	1	1	1
-9	1	1	0	0	1	1	1	0	1	1	1	1	1	1
-<img width="826" height="289" alt="image" src="https://github.com/user-attachments/assets/e1a01806-39f7-433b-baa4-abd1abe0d8e0" />
 
+<img width="1106" height="352" alt="image" src="https://github.com/user-attachments/assets/3458c679-47f1-403c-b006-b29dd375a55e" />
 
 ## External hardware
 
