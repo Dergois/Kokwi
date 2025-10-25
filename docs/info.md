@@ -9,12 +9,13 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This project drives a 7-segment common-cathode display to count from 0 to 9, incrementing with each pulse of an external clock signal. Once it reaches 9, the counter automatically resets and the sequence repeats continuously.s
 
 ## How to test
 
-Explain how to use your project
+Connect the circuit to an external clock source and observe the 7-segment display. The digits should increment from 0 to 9 at the rate determined by the clock frequency, then restart from 0 once the cycle is complete.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+- 7-segment common-cathode display
+- External clock signal source
